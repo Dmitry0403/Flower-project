@@ -1,0 +1,22 @@
+[
+  {
+    "logo": "/images/svg/fast.svg",
+    "title": "Fast <br> Delivery",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+  },
+  {
+    "logo": "/images/svg/Group.svg",
+    "title": "Great Customer Service",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+  },
+  {
+    "logo": "/images/svg/plant.svg",
+    "title": "Original <br> Plants",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+  },
+  {
+    "logo": "/images/svg/dollar-symbol.svg",
+    "title": "Affordable <br> Price",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+  }
+]

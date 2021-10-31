@@ -1,20 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Mantap</title>
-    <link rel="stylesheet" href="/css/font.css">
-</head>
-<body>
-    <header class="header-container">
-<div class="header-image"></div>
-<div class="header-primary">
-    <div class="header-menu"></div>
-    <div class="header-article"></div>
-    <div class="header-navigation"></div>
-</div>
+    <link rel="stylesheet" href="./css/normolize.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./icomoon/icostyle.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/section-primary.css" />
+    <link rel="stylesheet" href="./css/service-cards.css" />
+  </head>
+  <body>
+    <header class="container-header wrapper">
+      <a class="header__logo" href="#">
+        <img src="./images/svg/logo.svg" alt="logo" />
+      </a>
+      <div class="header__menu">
+        <div>
+          <a class="header__icon" href="#">
+            <img src="./images/svg/search.svg" alt="icon-search" />
+          </a>
+          <a class="header__icon" href="#">
+            <img
+              src="./images/svg/shopping-cart.svg"
+              alt="icon-shopping-basket"
+            />
+          </a>
+        </div>
+        <div>
+          <a class="header__button" href="#">Sign Up</a>
+          <a class="header__button" href="#">Sign In</a>
+        </div>
+      </div>
     </header>
-</body>
+    <main>
+      <section class="primary">
+        <div class="primary__image">
+          <img src="./images/Mask Group.png" />
+        </div>
+        <div class="primary__chapter">
+          <div class="primary__article">
+            <div class="article__title">Kembang Flower Mantap</div>
+            <div class="article__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,
+            </div>
+          </div>
+          <div class="primary__navigation">
+            <div class="primary__button">
+              <div class="button__direction">
+                <span class="ic-arrow-back"></span>
+                <span>Previous</span>
+              </div>
+              <div class="button__title">Kaktus Plant</div>
+            </div>
+            <div class="primary__button">
+              <div class="button__direction">
+                <span>Next</span>
+                <span class="ic-arrow-forward"></span>
+              </div>
+              <div class="button__title">Rahasia Plant</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service-cards wrapper"></section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
 </html>
