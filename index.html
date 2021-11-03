@@ -5,13 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Mantap</title>
-    <link rel="stylesheet" href="./css/normolize.css" />
-    <link rel="stylesheet" href="./css/fonts.css" />
-    <link rel="stylesheet" href="./icomoon/icostyle.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/section-primary.css" />
-    <link rel="stylesheet" href="./css/service-cards.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="container-header wrapper">
@@ -19,7 +13,7 @@
         <img src="./images/svg/logo.svg" alt="logo" />
       </a>
       <div class="header__menu">
-        <div>
+        <div class="header__icons">
           <a class="header__icon" href="#">
             <img src="./images/svg/search.svg" alt="icon-search" />
           </a>
@@ -30,7 +24,7 @@
             />
           </a>
         </div>
-        <div>
+        <div class="header__buttons">
           <a class="header__button" href="#">Sign Up</a>
           <a class="header__button" href="#">Sign In</a>
         </div>
@@ -42,9 +36,9 @@
           <img src="./images/Mask Group.png" />
         </div>
         <div class="primary__chapter">
-          <div class="primary__article">
-            <div class="article__title">Kembang Flower Mantap</div>
-            <div class="article__text">
+          <div class="primary__conception">
+            <div class="conception__title">Kembang Flower Mantap</div>
+            <div class="conception__text">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s,
@@ -69,7 +63,101 @@
         </div>
       </section>
       <section class="service-cards wrapper"></section>
+      <section class="product-cards wrapper">
+        <div class="product-cards__header">
+          <div class="product-cards__title">Featured Plants</div>
+          <div class="product-cards__selection">
+            <select name="select">
+              <option value="cheaperFirst" autofocus>Cheaper First</option>
+            </select>
+          </div>
+        </div>
+        <div class="product-cards__list"></div>
+      </section>
+      <section class="article wrapper">
+        <div class="article__chapter">
+          <div class="article__title">
+            Buy more plants, it helps you to be relaxed
+          </div>
+          <div class="article__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+            gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et
+            mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas
+            vitae eros sapien. Quisque pellentesque tempus dignissim.
+          </div>
+          <div class="article__image">
+            <img src="./images/MaskGroup(7).png" />
+          </div>
+        </div>
+        <div class="article__image">
+          <img src="./images/MaskGroup(6).png" />
+        </div>
+      </section>
+      <section class="shop-entrance wrapper">
+        <div class="shop">
+          <div class="shop__title">
+            Get your favourites plant on our shop now
+          </div>
+          <button class="shop__button">Visit Shop</button>
+        </div>
+        <div class="shop-entrance__image">
+          <img src="./images/sanni-sahil.png" />
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-block">
+          <ul class="footer-block__item">
+            <li class="footer-block__content footer-block__content_logo">
+              PLANTKU
+            </li>
+            <li class="footer-block__content footer-block__content_title">
+              Plantku House
+            </li>
+            <li class="footer-block__content lh-20">
+              Jl. Laksda Adisucipto No.51, Demangan, Kec. Depok, Kota
+              Yogyakarta, Daerah Istimewa Yogyakarta 55282
+            </li>
+          </ul>
+        </div>
+        <div class="footer-block">
+          <ul class="footer-block__item">
+            <li class="footer-block__content footer-block__content_title mb-20">
+              Perusahaan
+            </li>
+            <li class="footer-block__content">Tentang Kami</li>
+            <li class="footer-block__content">Hubungi Kami</li>
+          </ul>
+        </div>
+        <div class="footer-block">
+          <ul class="footer-block__item">
+            <li class="footer-block__content footer-block__content_title mb-20">
+              Produk
+            </li>
+            <li class="footer-block__content">Tanaman</li>
+            <li class="footer-block__content">Tanaman Lain</li>
+          </ul>
+        </div>
+        <div class="footer-block">
+          <ul class="footer-block__item">
+            <li class="footer-block__content footer-block__content_title">
+              Berlangganan Email Kami
+            </li>
+            <li class="footer-block__content">
+              <form action="#" class="footer-form">
+                <input type="email" placeholder="Masukan Alamat Email" />
+                <div>
+                  <button class="footer-block__button" type="submit">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script src="./app.js"></script>
   </body>
 </html>

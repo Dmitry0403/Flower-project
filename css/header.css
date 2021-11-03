@@ -30,6 +30,7 @@
 .header__button {
   font-weight: 700;
   font-size: 14px;
+  white-space: nowrap;
   color: rgba(21, 105, 99, 1);
   padding: 10px 33px;
 }
@@ -37,4 +38,26 @@
 .header__button:hover {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(21, 105, 99, 1);
+}
+
+@media screen and (max-width: 800px) {
+  .container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+  }
+
+  .header__logo {
+    z-index: 2;
+    margin-right: 20px;
+  }
+
+  .header__icons {
+    display: flex;
+  }
+
+  .header__buttons {
+    display: flex;
+  }
 }

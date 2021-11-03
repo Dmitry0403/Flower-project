@@ -13,19 +13,19 @@
   flex-direction: column;
 }
 
-.primary__article {
+.primary__conception {
   padding-top: 186px;
   flex-grow: 1;
 }
 
-.article__title {
+.conception__title {
   font-size: 68px;
   font-weight: 500;
   color: rgba(21, 105, 99, 1);
   padding: 0 100px 24px 77px;
 }
 
-.article__text {
+.conception__text {
   font-size: 18px;
   line-height: 32px;
   color: rgba(44, 21, 0, 1);
@@ -67,4 +67,22 @@
 
 .ic-arrow-forward {
   padding-left: 14px;
+}
+
+@media screen and (max-width: 800px) {
+  .primary {
+    width: 100vw;
+  }
+
+  .primary__image {
+    display: none;
+  }
+
+  .conception__title {
+    padding: 0 50px 24px 50px;
+  }
+
+  .conception__text {
+    padding: 0 50px 110px 50px;
+  }
 }

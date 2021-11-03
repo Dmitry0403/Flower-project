@@ -1,0 +1,47 @@
+.shop-entrance {
+  display: flex;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.shop {
+  background: rgba(243, 244, 246, 1);
+  flex-grow: 1;
+}
+
+.shop__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgba(44, 21, 0, 1);
+  padding: 88px 90px 32px 97px;
+}
+
+.shop__button {
+  font-weight: 700;
+  font-size: 14px;
+  background: rgba(250, 254, 254, 1);
+  color: rgba(21, 105, 99, 1);
+  border: 1px solid rgba(224, 224, 224, 1);
+  padding: 10px 42px;
+  margin-left: 97px;
+}
+
+.shop__button:hover {
+  cursor: pointer;
+  color: rgba(250, 254, 254, 1);
+  background: rgba(21, 105, 99, 1);
+}
+
+@media screen and (max-width: 800px) {
+  .shop-entrance__image {
+    display: none;
+  }
+
+  .shop__title {
+    padding: 16px 20px;
+  }
+
+  .shop__button {
+    margin-left: 16px;
+  }
+}

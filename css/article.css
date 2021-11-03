@@ -1,0 +1,38 @@
+.article {
+  display: flex;
+  height: 100%;
+  margin-bottom: 80px;
+}
+
+.article__chapter {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgba(44, 21, 0, 1);
+  padding: 16px 160px 16px 20px;
+}
+
+.article__text {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 16px 160px 16px 20px;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 800px) {
+  .article__image {
+    display: none;
+  }
+
+  .article__title {
+    padding: 16px 20px;
+  }
+
+  .article__text {
+    padding: 16px 20px;
+  }
+}

@@ -16,6 +16,10 @@
   margin-right: 0;
 }
 
+.service-card:hover {
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
 .service-card__title {
   display: flex;
   align-items: center;
@@ -37,4 +41,10 @@
   line-height: 16px;
   color: rgba(44, 21, 0, 1);
   padding: 0 41px 21px 16px;
+}
+
+@media screen and (max-width: 800px) {
+  .service-cards {
+    overflow-x: auto;
+  }
 }
